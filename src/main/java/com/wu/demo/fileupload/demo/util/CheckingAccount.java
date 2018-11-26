@@ -6,7 +6,7 @@ import com.wu.demo.fileupload.demo.util.InsufficientFundsException;
  */
 public class CheckingAccount {
     //balance 为余额  number 为卡号
-    private Double balance;
+    private double balance;
     private int number;
     public CheckingAccount(int number){
         this.number = number;
